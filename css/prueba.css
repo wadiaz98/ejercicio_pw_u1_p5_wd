@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paneles{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    padding: 15px;  
+    justify-content: center;
+    color: white;
+}
+
+button{
+    margin: 5px 5px;
+    background: rgb(76, 204, 191);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.resultado{
+    display: grid;
+    grid-column: span 3;
+    justify-content: center;
+    color: black;
+}
+
+button:hover{
+    background: rgb(56, 56, 66);
+}
